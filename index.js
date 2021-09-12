@@ -29,7 +29,7 @@ window.germanDayFinder = {
   getYearAsString: () => {
     var date = new Date();
     var year = date.getFullYear();
-    var yearStr = year.toLocaleString().substring(2, 3);
+    var yearStr = String(year).substring(2, 3);
   
     return yearStr;
   }
