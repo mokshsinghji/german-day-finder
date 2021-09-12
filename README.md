@@ -13,20 +13,20 @@ Import in html file
 
 ### Get German days:
 ```js
-germanDayFinder.germanDays \\ [ "Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag" ]
+germanDayFinder.germanDays // [ "Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag" ]
 ```
 
 ### Get today as a string in German
 ```js
-getTodayInGerman() \\ "Montag"
+getTodayInGerman() // "Montag"
 ```
 
 ### Get the month as a string with padding
 ```js
-getMonthAsStringWithPadding() \\ "02"
+getMonthAsStringWithPadding() // "02"
 ```
 
 ### Get the last 2 digits of the year number as a string
 ```js
-getYearAsString() \\ "21"
+getYearAsString() // "21"
 ```
